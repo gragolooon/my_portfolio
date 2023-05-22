@@ -101,7 +101,7 @@
             </div>
             <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed"></span></h2>
             <p class="text-5">based in Kathmandu, Nepal.</p>
-            <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>
+            <a href="#resume" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My CV</a><a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>
 		  </div>
           <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
             <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn"> <img class="img-fluid rounded-pill d-block" src="{{asset('legend.png')}}" title="I'm Nirajan" alt=""></div>
@@ -285,7 +285,7 @@
             </div>
           </div>
         </div>
-        <p class="text-center mt-5 wow fadeInUp"><a href="#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
+        <p class="text-center mt-5 wow fadeInUp"><a href="{{asset('NirajanKarkiCv.pdf')}}" target="_blank" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
       </div>
     </section>
     <!-- Resume end --> 
@@ -518,7 +518,7 @@
             </ul>
           </div>
           <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s">
-            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Estimate your Project?</h2>
+            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Send me a message.</h2>
             <!-- Contact Form -->
             <form class="form-border" action="{{ route('contact_me.store') }}" method="POST">
               @csrf
@@ -556,10 +556,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 text-center text-lg-start wow fadeInUp">
-          <p class="mb-2 mb-lg-0">Copyright © 2021 <a class="fw-600" href="#">Callum</a>. All Rights Reserved.</p>
+          <p class="mb-2 mb-lg-0">Copyright © 2023 <a class="fw-600" href="{{route('home')}}">Nirajan</a>. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 wow fadeInUp">
-          <p class="mb-0 text-center text-lg-end">Designed by <a class="fw-600" href="http://www.harnishdesign.net/">Harnish Design</a></p>
+          <p class="mb-0 text-center text-lg-end">Designed by <a class="fw-600" href="{{route('home')}}">Nirajan Design</a></p>
         </div>
       </div>
     </div>
