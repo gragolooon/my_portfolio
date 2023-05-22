@@ -1,0 +1,31 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.home-bg{background-color: #F5DF4E;
+    height: 100vh;
+}
+
+/* .home-bg{background-color: grey;
+    height: 100vh;
+} */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone{
+    font-size: larger;
+}
+
+.round-img {
+    border-radius: 50%;
+  }
